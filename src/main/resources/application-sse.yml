@@ -1,0 +1,15 @@
+spring:
+  ai:
+    mcp:
+      server:
+        name: agent-mcp-server
+        version: 0.0.1
+        type: sync
+        stdio: false
+        annotation-scanner:
+          enabled: true
+
+logging:
+  level:
+    root: INFO
+    org.springframework.ai: DEBUG
