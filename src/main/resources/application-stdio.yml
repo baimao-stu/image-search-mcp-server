@@ -1,0 +1,17 @@
+spring:
+  ai:
+    mcp:
+      server:
+        name: agent-mcp-server
+        version: 0.0.1
+        type: sync
+        stdio: true
+        annotation-scanner:
+          enabled: true
+  main:
+    web-application-type: none
+    banner-mode: off
+
+logging:
+  pattern:
+    console: ""

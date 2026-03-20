@@ -1,0 +1,11 @@
+pexels:
+  api:
+    key: ??Pexels APIkey
+
+spring:
+  application:
+    name: pexels-mcp-server
+  profiles:
+    active: sse
+server:
+  port: 8123
